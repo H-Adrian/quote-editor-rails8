@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af0a7526-2e3c-4576-8ead-7e0b3c8f4cf3" name="Changes" comment="Install front-end dependencies&#10;&#10;Ensure system tests can run.&#10;Create script for installing other requirements when first installing the application." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="devcontainer" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="boostrap-script-and-front-end-dependencies" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;H-Adrian&quot;
+  }
+}</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Add RoR and PostgreSQL devcontainer template" />
+        <option name="rewordedMessage" value="Add RoR and PostgreSQL devcontainer template" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="ddc85bcc545dcc65b75a655db8ed49bf76cdb65e" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/H-Adrian/quote-editor.git&quot;,
+    &quot;accountId&quot;: &quot;1946eae4-a310-4608-8b19-b648536addf2&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2mZCtZzaTGCtNbdxthDNWStYyKe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm&quot;: &quot;WSL&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
+    <layout>
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info id="Commit_Guest" show_stripe_button="false" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info id="Learn" show_stripe_button="false" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3303985" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Endpoints" order="5" show_stripe_button="false" />
+    </layout>
+  </component>
+  <component name="RunManager">
+    <configuration name="Dockerfile base" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="docker.iolibraryruby$RUBY_VERSION-slim_base" />
+          <option name="buildCliOptions" value="--target base" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile base" />
+        <item itemvalue="Docker.Dockerfile base" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-RM-243.22562.213" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af0a7526-2e3c-4576-8ead-7e0b3c8f4cf3" name="Changes" comment="" />
+      <created>1727274926666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727274926666</updated>
+      <workItem from="1727274928019" duration="1550000" />
+      <workItem from="1727343831225" duration="3114000" />
+      <workItem from="1727788060197" duration="1248000" />
+      <workItem from="1727862716571" duration="593000" />
+      <workItem from="1729425146101" duration="594000" />
+      <workItem from="1730242151738" duration="2000" />
+      <workItem from="1731833878283" duration="598000" />
+      <workItem from="1732614533438" duration="431000" />
+      <workItem from="1732615401658" duration="4168000" />
+      <workItem from="1732706118471" duration="2031000" />
+      <workItem from="1732794537677" duration="5377000" />
+      <workItem from="1732884158251" duration="6165000" />
+      <workItem from="1732961195151" duration="2376000" />
+      <workItem from="1733067043885" duration="2772000" />
+      <workItem from="1733131249166" duration="3915000" />
+      <workItem from="1733140279591" duration="4421000" />
+      <workItem from="1733213301218" duration="5193000" />
+      <workItem from="1733234395493" duration="80000" />
+      <workItem from="1733314560023" duration="1380000" />
+      <workItem from="1733383607332" duration="7282000" />
+      <workItem from="1733730632662" duration="6775000" />
+      <workItem from="1733754482074" duration="2841000" />
+      <workItem from="1733768397216" duration="2175000" />
+      <workItem from="1733916903576" duration="6015000" />
+      <workItem from="1733992100482" duration="896000" />
+      <workItem from="1734100280805" duration="796000" />
+      <workItem from="1734590392749" duration="2395000" />
+      <workItem from="1735223097443" duration="1553000" />
+      <workItem from="1736248178886" duration="3996000" />
+      <workItem from="1736407836018" duration="2732000" />
+      <workItem from="1736423404094" duration="38000" />
+      <workItem from="1736431458315" duration="125000" />
+      <workItem from="1736431595654" duration="21000" />
+      <workItem from="1736431656572" duration="98000" />
+      <workItem from="1736431762558" duration="7000" />
+      <workItem from="1736431794160" duration="6000" />
+      <workItem from="1736431808672" duration="627000" />
+      <workItem from="1736435845031" duration="170000" />
+      <workItem from="1736436028049" duration="335000" />
+      <workItem from="1736437001366" duration="196000" />
+      <workItem from="1736437215724" duration="16000" />
+      <workItem from="1736437245149" duration="250000" />
+      <workItem from="1736437511237" duration="1098000" />
+      <workItem from="1736516465230" duration="32000" />
+      <workItem from="1736517126338" duration="3946000" />
+      <workItem from="1736583974079" duration="3209000" />
+      <workItem from="1736778861009" duration="2220000" />
+      <workItem from="1736781132668" duration="660000" />
+      <workItem from="1736782195885" duration="620000" />
+      <workItem from="1736953015438" duration="1330000" />
+      <workItem from="1737384116365" duration="606000" />
+      <workItem from="1737719961459" duration="1237000" />
+      <workItem from="1738924280105" duration="1962000" />
+      <workItem from="1739442152950" duration="2751000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add RoR and PostgreSQL devcontainer template">
+      <option name="closed" value="true" />
+      <created>1732799492765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732799492765</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add RoR and PostgreSQL devcontainer template">
+      <option name="closed" value="true" />
+      <created>1732802204363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732802204363</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add RoR and PostgreSQL devcontainer template">
+      <option name="closed" value="true" />
+      <created>1732802381672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732802381672</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add RoR and PostgreSQL devcontainer template">
+      <option name="closed" value="true" />
+      <created>1733131353905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733131353905</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add RoR and PostgreSQL devcontainer template">
+      <option name="closed" value="true" />
+      <created>1733140356667</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733140356668</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add RoR and PostgreSQL devcontainer template">
+      <option name="closed" value="true" />
+      <created>1733140406197</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733140406197</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add RoR and PostgreSQL devcontainer template">
+      <option name="closed" value="true" />
+      <created>1733140458128</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733140458128</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add RoR and PostgreSQL devcontainer template">
+      <option name="closed" value="true" />
+      <created>1733144484191</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733144484191</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add RoR and PostgreSQL devcontainer template">
+      <option name="closed" value="true" />
+      <created>1733144534747</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733144534747</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add RoR and PostgreSQL devcontainer template">
+      <option name="closed" value="true" />
+      <created>1733394063491</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733394063491</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add RoR and PostgreSQL devcontainer template">
+      <option name="closed" value="true" />
+      <created>1733394070674</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733394070674</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add model and controller for quotes">
+      <option name="closed" value="true" />
+      <created>1733733300071</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733733300071</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Install front-end dependencies&#10;&#10;Ensure system tests can run.&#10;Create script for installing other requirements when first installing the application.">
+      <option name="closed" value="true" />
+      <created>1736408413655</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736408413655</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Install front-end dependencies&#10;&#10;Ensure system tests can run.&#10;Create script for installing other requirements when first installing the application.">
+      <option name="closed" value="true" />
+      <created>1736519361877</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736519361877</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Install front-end dependencies&#10;&#10;Ensure system tests can run.&#10;Create script for installing other requirements when first installing the application.">
+      <option name="closed" value="true" />
+      <created>1736779722006</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736779722006</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Install front-end dependencies&#10;&#10;Ensure system tests can run.&#10;Create script for installing other requirements when first installing the application.">
+      <option name="closed" value="true" />
+      <created>1736780718240</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1736780718240</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add RoR and PostgreSQL devcontainer template" />
+    <MESSAGE value="Add model and controller for quotes" />
+    <MESSAGE value="Install front-end dependencies&#10;&#10;Ensure system tests can run.&#10;Create script for installing other requirements when first installing the application." />
+    <option name="LAST_COMMIT_MESSAGE" value="Install front-end dependencies&#10;&#10;Ensure system tests can run.&#10;Create script for installing other requirements when first installing the application." />
+  </component>
+</project>
