@@ -33,5 +33,5 @@
 
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "bin/setup --skip-server"
+  "postCreateCommand": "bin/setup --skip-server && bundle && rails db:create && npm install -g esbuild && rails turbo:install && rails stimulus:install && rails css:install:sass"
 }
