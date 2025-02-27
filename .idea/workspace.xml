@@ -5,9 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af0a7526-2e3c-4576-8ead-7e0b3c8f4cf3" name="Changes" comment="Implement dev containers&#10;&#10;System tests can run.">
-      <change afterPath="$PROJECT_DIR$/test/fixtures/quotes.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/quotes_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/quotes_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/quote.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/quotes/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/quotes/_quote.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/quotes/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/quotes/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/quotes/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/quotes/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/simple_form.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20250225111248_create_quotes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/quotes_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/quote_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.devcontainer/devcontainer.json" beforeDir="false" afterPath="$PROJECT_DIR$/.devcontainer/devcontainer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/quote-editor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quote-editor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/quotes_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/quotes_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +46,14 @@
     <option name="NEW_BASE" value="devcontainer" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Adrian Hajdo &lt;hajdoadrian01@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="initial-setup" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,12 +74,12 @@
     <option name="currentCommit" value="1" />
     <option name="onto" value="ddc85bcc545dcc65b75a655db8ed49bf76cdb65e" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/H-Adrian/quote-editor-rails8",
-    "accountId": "6ea6adee-e27d-48e6-aee3-2952a5ff85f5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/H-Adrian/quote-editor-rails8&quot;,
+    &quot;accountId&quot;: &quot;6ea6adee-e27d-48e6-aee3-2952a5ff85f5&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -69,24 +95,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm&quot;: &quot;WSL&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;initial-setup&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm": "WSL",
+    "git-widget-placeholder": "to-be-named",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
@@ -94,8 +120,8 @@
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="Learn" show_stripe_button="false" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20078126" />
-      <window_info active="true" id="Commit" order="1" visible="true" weight="0.20078126" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23411459" />
+      <window_info id="Commit" order="1" weight="0.23411459" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
@@ -106,6 +132,8 @@
       <window_info anchor="bottom" id="Problems View" order="2" />
       <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" />
       <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3303985" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
@@ -125,6 +153,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
@@ -144,6 +173,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -166,6 +196,7 @@
         <env name="RAILS_ENV" value="test" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -202,7 +233,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a163169533b-JavaScript-RM-251.21418.43" />
+        <option value="bundled-js-predefined-d6986cc7102b-7af238ef196b-JavaScript-RM-251.22821.74" />
       </set>
     </attachedChunks>
   </component>
@@ -273,7 +304,9 @@
       <workItem from="1739874269659" duration="599000" />
       <workItem from="1740036872051" duration="3635000" />
       <workItem from="1740391854576" duration="5329000" />
-      <workItem from="1740467038257" duration="5331000" />
+      <workItem from="1740467038257" duration="7912000" />
+      <workItem from="1740558870580" duration="7655000" />
+      <workItem from="1740656997248" duration="1342000" />
     </task>
     <task id="LOCAL-00001" summary="Add RoR and PostgreSQL devcontainer template">
       <option name="closed" value="true" />
@@ -411,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740467360197</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Implement dev containers&#10;&#10;System tests can run.">
+      <option name="closed" value="true" />
+      <created>1740480450731</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740480450731</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,6 +482,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add RoR and PostgreSQL devcontainer template" />
     <MESSAGE value="Add model and controller for quotes" />
     <MESSAGE value="Install front-end dependencies&#10;&#10;Ensure system tests can run.&#10;Create script for installing other requirements when first installing the application." />
