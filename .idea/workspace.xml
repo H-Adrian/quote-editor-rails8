@@ -4,20 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0a7526-2e3c-4576-8ead-7e0b3c8f4cf3" name="Changes" comment="Implement dev containers&#10;&#10;System tests can run.">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_btn.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_error_message.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_quote.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_visually_hidden.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/config/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/config/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/layouts/_container.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/layouts/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/mixins/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/quote-editor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quote-editor.iml" afterDir="false" />
+    <list default="true" id="af0a7526-2e3c-4576-8ead-7e0b3c8f4cf3" name="Changes" comment="Progress bar">
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_turbo_progress_bar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/quotes/create.turbo_stream.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/quotes/destroy.turbo_stream.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capybara-202503101113409830912000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capybara-202503101114216934231583.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capybara-202503101123091765020878.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capybara-202503101123555017668333.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capybara-202503101124596884676101.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.sass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.sass.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/quote.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/quote.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/quotes/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/quotes/_quote.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/_quote.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/quotes/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/quotes/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/quotes/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/quotes_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/quotes_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +47,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="initial-setup" />
+        <entry key="$PROJECT_DIR$" value="add_CSS" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,6 +74,13 @@
     &quot;accountId&quot;: &quot;6ea6adee-e27d-48e6-aee3-2952a5ff85f5&quot;
   }
 }</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -84,24 +96,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm&quot;: &quot;WSL&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;to-be-named&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Test::Unit/Shoulda/Minitest.test_Destroying_a_quote.executor": "Debug",
+    "credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm": "WSL",
+    "git-widget-placeholder": "reactive-pages-with-turbo-frames-and-stream",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
@@ -109,8 +123,8 @@
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="Learn" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23411459" />
-      <window_info id="Commit" order="1" weight="0.23411459" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1809896" />
+      <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="VcsChanges" order="3" show_stripe_button="false" weight="0.16692708" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -120,9 +134,12 @@
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3303985" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3303985" />
       <window_info anchor="bottom" id="Services" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3303985" />
+      <window_info anchor="bottom" id="Find" order="5" show_stripe_button="false" weight="0.3303985" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3832252" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.3832252" />
+      <window_info anchor="right" id="PR AI Assistant" show_stripe_button="false" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
@@ -133,7 +150,7 @@
       <window_info anchor="right" id="Endpoints" order="5" show_stripe_button="false" />
     </layout>
   </component>
-  <component name="RunManager" selected="Rails.quote-editor">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_Destroying_a_quote">
     <configuration name="quote-editor" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="quote-editor" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -209,6 +226,37 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_Destroying_a_quote" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="quote-editor" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/system/quotes_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/test/system/quotes_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_Destroying_a_quote$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Dockerfile base" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -227,6 +275,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_Destroying_a_quote" />
         <item itemvalue="Docker.Dockerfile base" />
         <item itemvalue="Docker.Dockerfile base" />
       </list>
@@ -235,7 +284,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7af238ef196b-JavaScript-RM-251.22821.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-45be767fe593-JavaScript-RM-251.23774.25" />
       </set>
     </attachedChunks>
   </component>
@@ -309,7 +358,12 @@
       <workItem from="1740467038257" duration="7912000" />
       <workItem from="1740558870580" duration="7655000" />
       <workItem from="1740656997248" duration="1342000" />
-      <workItem from="1740662502746" duration="4246000" />
+      <workItem from="1740662502746" duration="6066000" />
+      <workItem from="1740998160939" duration="7009000" />
+      <workItem from="1741177871820" duration="6783000" />
+      <workItem from="1741263158766" duration="6286000" />
+      <workItem from="1741342270783" duration="5558000" />
+      <workItem from="1741597040186" duration="6156000" />
     </task>
     <task id="LOCAL-00001" summary="Add RoR and PostgreSQL devcontainer template">
       <option name="closed" value="true" />
@@ -455,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740480450731</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add CSS">
+      <option name="closed" value="true" />
+      <created>1740669115284</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740669115284</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,6 +552,11 @@
     <MESSAGE value="Add model and controller for quotes" />
     <MESSAGE value="Install front-end dependencies&#10;&#10;Ensure system tests can run.&#10;Create script for installing other requirements when first installing the application." />
     <MESSAGE value="Implement dev containers&#10;&#10;System tests can run." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement dev containers&#10;&#10;System tests can run." />
+    <MESSAGE value="Add CSS" />
+    <MESSAGE value="Progress bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress bar" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/quote_editor@test_Destroying_a_quote.rcov" NAME="test_Destroying_a_quote Coverage Results" MODIFIED="1741606074452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="quote-editor" />
   </component>
 </project>
