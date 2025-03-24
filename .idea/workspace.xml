@@ -5,37 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af0a7526-2e3c-4576-8ead-7e0b3c8f4cf3" name="Changes" comment="Add authentication, company model, navbar">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/pages_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/company.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20250313131128_create_companies.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20250313131643_devise_create_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20250313145456_add_company_reference_to_quotes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20250313145505_add_company_reference_to_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/companies.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/company_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/quote-editor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quote-editor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_flash.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/config/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/controllers/removals_controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_flash.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/quotes/update.turbo_stream.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.sass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.sass.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/quote.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/quote.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/controllers/hello_controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/controllers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/quotes/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/quotes.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/quotes.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/quotes_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/quotes_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/quotes/create.turbo_stream.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/create.turbo_stream.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/quotes/destroy.turbo_stream.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/destroy.turbo_stream.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +100,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "Test::Unit/Shoulda/Minitest.test_Destroying_a_quote.executor": "Run",
     "credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm": "WSL",
-    "git-widget-placeholder": "add-auth",
+    "git-widget-placeholder": "flash-messages",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -136,20 +119,20 @@
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="Learn" show_stripe_button="false" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19505209" />
-      <window_info active="true" id="Commit" order="1" visible="true" weight="0.19348958" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19296876" />
+      <window_info id="Commit" order="1" weight="0.19296876" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="VcsChanges" order="3" weight="0.19348958" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="0" visible="true" weight="0.3248378" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3248378" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3257646" />
       <window_info anchor="bottom" id="Services" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" show_stripe_button="false" weight="0.3303985" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3303985" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3832252" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3832252" />
       <window_info anchor="right" id="PR AI Assistant" show_stripe_button="false" />

@@ -6,6 +6,7 @@
 // Configuration
 @import "config/variables";
 @import "config/reset";
+@import "config/animations";
 
 // Components
 @import "components/btn";
@@ -13,13 +14,10 @@
 @import "components/form";
 @import "components/visually_hidden";
 @import "components/quote";
+@import "components/turbo_progress_bar";
+@import "components/flash";
+@import "components/navbar";
 
 // Layouts
 @import "layouts/container";
 @import "layouts/header";
-
-// Progress bar
-@import "components/turbo_progress_bar";
-
-//Navbar
-@import "components/navbar";
