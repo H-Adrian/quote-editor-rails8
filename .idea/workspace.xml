@@ -4,12 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0a7526-2e3c-4576-8ead-7e0b3c8f4cf3" name="Changes" comment="Add authentication, company model, navbar">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_empty_state.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/quotes/_empty_state.html.erb" afterDir="false" />
+    <list default="true" id="af0a7526-2e3c-4576-8ead-7e0b3c8f4cf3" name="Changes" comment="wip">
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_line_item_date.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/line_item_dates_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/line_item_date.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/line_item_dates/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/line_item_dates/_line_item_date.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/line_item_dates/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20250402140539_create_line_item_dates.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/line_item_dates.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/line_item_date_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.sass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.sass.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/quotes/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/quote.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/quote.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/quotes/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/quotes/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/simple_form.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/simple_form.en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +107,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Test::Unit/Shoulda/Minitest.test_Destroying_a_quote.executor&quot;: &quot;Run&quot;,
     &quot;credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm&quot;: &quot;WSL&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;flash-messages&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -110,8 +126,8 @@
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="Learn" show_stripe_button="false" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19244792" />
-      <window_info active="true" id="Commit" order="1" visible="true" weight="0.19244792" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1735026" />
+      <window_info active="true" id="Commit" order="1" visible="true" weight="0.1735026" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="VcsChanges" order="3" weight="0.19348958" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -121,7 +137,7 @@
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3248378" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3266914" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.30880648" />
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3303985" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3832252" />
@@ -147,11 +163,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
@@ -171,11 +183,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -198,11 +206,7 @@
         <env name="RAILS_ENV" value="test" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -226,11 +230,7 @@
         <env name="JRUBY_OPTS" value="-X+O" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/system/quotes_test.rb" />
@@ -271,7 +271,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-d159365566ee-JavaScript-RM-251.23774.110" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-RM-251.23774.208" />
       </set>
     </attachedChunks>
   </component>
@@ -357,6 +357,7 @@
       <workItem from="1741871435479" duration="6192000" />
       <workItem from="1741944334891" duration="4299000" />
       <workItem from="1742979258832" duration="4145000" />
+      <workItem from="1743600218624" duration="7283000" />
     </task>
     <task id="LOCAL-00001" summary="Add RoR and PostgreSQL devcontainer template">
       <option name="closed" value="true" />
@@ -565,7 +566,8 @@
     <MESSAGE value="Progress bar" />
     <MESSAGE value="Reactive pages with turbo frames and stream" />
     <MESSAGE value="Add authentication, company model, navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add authentication, company model, navbar" />
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/quote_editor@test_Destroying_a_quote.rcov" NAME="test_Destroying_a_quote Coverage Results" MODIFIED="1741607004037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="quote-editor" />
